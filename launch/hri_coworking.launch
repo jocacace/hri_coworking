@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+
+
+<launch>
+<remap from="netft_data/filt" to="fts_data" /> 
+	<node pkg="hri_coworking" name="hri_coworking" type="hri_coworking" output="screen">
+
+	</node>
+</launch>
